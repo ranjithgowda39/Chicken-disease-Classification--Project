@@ -26,7 +26,6 @@ list_of_files = [
     "templates/index.html",
     
 
-
 ]
 
 
