@@ -59,7 +59,7 @@ class ConfigurationManager:
         return prepare_base_model_config
     
 
-'''
+
     def get_prepare_callback_config(self) -> PrepareCallbacksConfig:
         config = self.config.prepare_callbacks
         model_ckpt_dir = os.path.dirname(config.checkpoint_model_filepath)
@@ -77,7 +77,7 @@ class ConfigurationManager:
         return prepare_callback_config
     
 
-
+'''
     def get_training_config(self) -> TrainingConfig:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
