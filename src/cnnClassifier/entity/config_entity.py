@@ -30,7 +30,7 @@ class PrepareCallbacksConfig:
     checkpoint_model_filepath: Path
 
 
-'''
+
 @dataclass(frozen=True)
 class TrainingConfig:
     root_dir: Path
@@ -43,7 +43,7 @@ class TrainingConfig:
     params_image_size: list
 
 
-
+'''
 @dataclass(frozen=True)
 class EvaluationConfig:
     path_of_model: Path
